@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "spoofer"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.0"
+pebble = "^5.1.0"
+pillow = "^11.0.0"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+spoof = "spoofer.cli:cli"
