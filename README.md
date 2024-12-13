@@ -9,9 +9,12 @@ This repository defines a tool spoof that takes an image and a hex string and yi
 - Clone the repository:
   ```bash
   git clone https://github.com/Denniskwg/Image-spoofer.git
-- Install the package
+- Install the package:
+  ```bash
   pipx install git+https://github.com/Denniskwg/Image-spoofer.git
 
-- Use it as **spoof 0x11 "image.png" "output_image.png"
+- Use it as:
+   ```bash
+  spoof 0x11 "image.png" "output_image.png"
 
 - check if *output_image.png* matches the printed hash using sha256sum
